@@ -9473,3 +9473,54 @@
         font-size: 15px;
       }
     }
+
+    .c__btn {
+      width: 100%;
+      text-align: center;
+      background: linear-gradient(1deg, #d7271e 0%, #e25651 100%);
+      position: relative;
+      height: 72px;
+      border-radius: 10px;
+      box-shadow: 0 5px 0 #7E272C;
+      margin-top: 24px;
+    }
+
+      .c__btn a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        color: #fff;
+        line-height: 1.5;
+        position: relative;
+        transition: all ease .3s;
+        font-weight: bold;
+        font-size: 16px;
+        padding: 0 40px 0 20px;
+        text-decoration: none !important;
+      }
+
+      .c__btn a:before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 20px;
+        right: 20PX;
+        background-image: url(img/ico-wh-right.svg);
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 51%;
+        transform: translateY(-50%);
+      }
+
+      .c__btn a:hover {
+        opacity: 0.6;
+      }
+
+      @media screen and (max-width: 768px) {
+        .c__btn a {
+          font-size: 14px;
+        }
+      }
